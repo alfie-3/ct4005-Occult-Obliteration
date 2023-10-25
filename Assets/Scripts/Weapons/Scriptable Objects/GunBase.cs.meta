@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8daeca0a8358e3e42bb3312bb3dce53b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gunAudio: {fileID: 11400000, guid: 858064ffcaa4088458542ed7c3f00ef4, type: 2}
+  - gunTrail: {fileID: 11400000, guid: 4c2fe4de0408d1b46b2d3b5dd3d02c89, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186465a599b41304c9c8ebca62ac62a9, type: 3}
+  m_Name: SniperRifle
+  m_EditorClassIdentifier: 
+  gunData:
+    gunPrefab: {fileID: 3566624335573259337, guid: 4329e9cefeb4bca48806aeac4d126868,
+      type: 3}
+    gunIcon: {fileID: 21300000, guid: 425e4af66d821b04fb4115618f37c585, type: 3}
+    gunName: Sniper
+    price: 1700
+    weaponRarity: 1
+  stats:
+    rid: 8383067147757420676
+  gunAudio: {fileID: 11400000, guid: 3a76e9bf4fe6c314da76109063b40f7a, type: 2}
+  gunTrail: {fileID: 11400000, guid: 4c2fe4de0408d1b46b2d3b5dd3d02c89, type: 2}
+  gunType: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 8383067147757420676
+      type: {class: GunStats, ns: , asm: Assembly-CSharp}
+      data:
+        firingType: 0
+        maxMagSize: 10
+        maxAmmo: 100
+        damage: 40
+        damageType: 0
+        pierceAmount: 6
+        range: 60
+        spread: {x: 1, y: 60}
+        spreadIncreaseAmount: 20
+        spreadDecreaseSpeed: 10
+        reloadSpeed: 2
+        firingRate: 1

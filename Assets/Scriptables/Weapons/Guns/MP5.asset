@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186465a599b41304c9c8ebca62ac62a9, type: 3}
+  m_Name: MP5
+  m_EditorClassIdentifier: 
+  gunData:
+    gunPrefab: {fileID: 1660014620983379498, guid: 0e094a3fd519b3d488b3b56a47945775,
+      type: 3}
+    gunIcon: {fileID: 21300000, guid: 71318d4abdbb97d43bb975bb6a075538, type: 3}
+    gunName: MP5
+    price: 1200
+    weaponRarity: 0
+  stats:
+    rid: 7937228682108076082
+  gunAudio: {fileID: 11400000, guid: 9cb6d1d7374cfcf4ebab8013b6618dee, type: 2}
+  gunTrail: {fileID: 11400000, guid: fd305f43fa2b3c743b48ad503108f03c, type: 2}
+  gunType: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 7937228682108076082
+      type: {class: GunStats, ns: , asm: Assembly-CSharp}
+      data:
+        firingType: 2
+        maxMagSize: 31
+        maxAmmo: 310
+        damage: 10
+        damageType: 0
+        pierceAmount: 2
+        range: 30
+        spread: {x: 5, y: 16}
+        spreadIncreaseAmount: 6
+        spreadDecreaseSpeed: 10
+        reloadSpeed: 0.4
+        firingRate: 0.1

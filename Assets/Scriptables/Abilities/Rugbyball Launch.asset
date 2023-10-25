@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e85c279187f5564dbcc47c76e1d63bd, type: 3}
+  m_Name: Rugbyball Launch
+  m_EditorClassIdentifier: 
+  name: Rugbyball Launch
+  decription: Launches a high velocity rugby ball.
+  cooldown: 0.1
+  duration: 1
+  throwablePrefab: {fileID: 1888300040295799184, guid: 2d63cd0a8afdf2c4bba9a7e8b2afe093,
+    type: 3}
+  forwardObjectSpawn: 0.5

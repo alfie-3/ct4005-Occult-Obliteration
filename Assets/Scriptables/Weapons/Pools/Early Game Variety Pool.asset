@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a7371bd85f2d945b45b3255ec2065b, type: 3}
+  m_Name: Early Game Variety Pool
+  m_EditorClassIdentifier: 
+  gunList:
+  - {fileID: 11400000, guid: 9a979cae47606dc4789c47378b02f3bb, type: 2}
+  - {fileID: 11400000, guid: 357b241ffdea1c54e9c228ed86c7c701, type: 2}
+  - {fileID: 11400000, guid: ec12613af2934004fb1af447d419f874, type: 2}
+  - {fileID: 11400000, guid: f0d5898c057c752438d52c38a528e532, type: 2}

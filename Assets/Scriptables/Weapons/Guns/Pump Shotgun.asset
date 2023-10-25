@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2c8fa8a2f4558458a9b0faeaafd53a, type: 3}
+  m_Name: Pump Shotgun
+  m_EditorClassIdentifier: 
+  gunData:
+    gunPrefab: {fileID: 3566624335573259337, guid: f1b4a4c3b4f20e849946510adfe98fe8,
+      type: 3}
+    gunIcon: {fileID: 21300000, guid: 733ccd08ebc8e5246811da1e2fe1d437, type: 3}
+    gunName: Pump Shotgun
+    price: 300
+    weaponRarity: 0
+  stats:
+    rid: 4549404308381892634
+  gunAudio: {fileID: 11400000, guid: 88e7657fbe1b6af4d8b151818faa634f, type: 2}
+  gunTrail: {fileID: 11400000, guid: 4c2fe4de0408d1b46b2d3b5dd3d02c89, type: 2}
+  gunType: 3
+  references:
+    version: 2
+    RefIds:
+    - rid: 4549404308381892634
+      type: {class: ShotgunStats, ns: , asm: Assembly-CSharp}
+      data:
+        firingType: 0
+        maxMagSize: 8
+        maxAmmo: 160
+        damage: 8
+        damageType: 0
+        pierceAmount: 3
+        range: 10
+        spread: {x: 45, y: 90}
+        spreadIncreaseAmount: 15
+        spreadDecreaseSpeed: 12
+        reloadSpeed: 1.25
+        firingRate: 0.5
+        shotAmount: 12
+        angleDither: 5

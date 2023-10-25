@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186465a599b41304c9c8ebca62ac62a9, type: 3}
+  m_Name: Winchester Rifle
+  m_EditorClassIdentifier: 
+  gunData:
+    gunPrefab: {fileID: 4761096328879517418, guid: d4daf491112415e419afae8d88964b8c,
+      type: 3}
+    gunIcon: {fileID: 21300000, guid: 425e4af66d821b04fb4115618f37c585, type: 3}
+    gunName: Winchester Rifle
+    price: 250
+    weaponRarity: 0
+  stats:
+    rid: 687436210874875926
+  gunAudio: {fileID: 11400000, guid: 3a76e9bf4fe6c314da76109063b40f7a, type: 2}
+  gunTrail: {fileID: 11400000, guid: 4c2fe4de0408d1b46b2d3b5dd3d02c89, type: 2}
+  gunType: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 687436210874875926
+      type: {class: GunStats, ns: , asm: Assembly-CSharp}
+      data:
+        firingType: 0
+        maxMagSize: 12
+        maxAmmo: 120
+        damage: 25
+        damageType: 0
+        pierceAmount: 3
+        range: 40
+        spread: {x: 5, y: 15}
+        spreadIncreaseAmount: 2.2
+        spreadDecreaseSpeed: 5
+        reloadSpeed: 0.5
+        firingRate: 0.3

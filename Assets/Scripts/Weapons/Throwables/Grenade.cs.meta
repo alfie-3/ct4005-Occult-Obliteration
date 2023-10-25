@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 28872139c98c3284296c970be9a6bd64
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - explosion: {instanceID: 0}
+  - explosionClip: {fileID: 8300000, guid: dd1e48084b0462440b5608f405ccf3d3, type: 3}
+  - grenadeModel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

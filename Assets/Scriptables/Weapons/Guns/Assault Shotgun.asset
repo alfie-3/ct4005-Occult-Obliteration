@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2c8fa8a2f4558458a9b0faeaafd53a, type: 3}
+  m_Name: Assault Shotgun
+  m_EditorClassIdentifier: 
+  gunData:
+    gunPrefab: {fileID: 3566624335573259337, guid: f1b4a4c3b4f20e849946510adfe98fe8,
+      type: 3}
+    gunIcon: {fileID: 21300000, guid: 733ccd08ebc8e5246811da1e2fe1d437, type: 3}
+    gunName: Assault Shotgun
+    price: 2300
+    weaponRarity: 2
+  stats:
+    rid: 8383067146364911725
+  gunAudio: {fileID: 11400000, guid: 88e7657fbe1b6af4d8b151818faa634f, type: 2}
+  gunTrail: {fileID: 11400000, guid: 4c2fe4de0408d1b46b2d3b5dd3d02c89, type: 2}
+  gunType: 3
+  references:
+    version: 2
+    RefIds:
+    - rid: 8383067146364911725
+      type: {class: ShotgunStats, ns: , asm: Assembly-CSharp}
+      data:
+        firingType: 2
+        maxMagSize: 16
+        maxAmmo: 280
+        damage: 6
+        damageType: 0
+        pierceAmount: 2
+        range: 15
+        spread: {x: 50, y: 70}
+        spreadIncreaseAmount: 10
+        spreadDecreaseSpeed: 2.5
+        reloadSpeed: 2
+        firingRate: 0.3
+        shotAmount: 11
+        angleDither: 4.8
